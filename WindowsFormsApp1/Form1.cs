@@ -26,5 +26,15 @@ namespace WindowsFormsApp1
         {
             MessageBox.Show("ВТОРАЯ КНОПКА");
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
